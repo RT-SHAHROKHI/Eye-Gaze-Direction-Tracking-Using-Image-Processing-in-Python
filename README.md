@@ -52,8 +52,8 @@ Finally we show everything on the screen.
     key = cv2.waitKey(30)
     if key == 27:
         break
+    cv2.destroyAllWindows()
 
-cv2.destroyAllWindows()
     
     
     
