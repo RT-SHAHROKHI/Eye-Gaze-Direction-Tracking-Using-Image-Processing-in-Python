@@ -7,7 +7,7 @@ First of all we import the libraries: Opencv and numpy.
     import cv2
     import numpy as np
 
-    cap = cv2.VideoCapture("eye_recording.flv")
+    cap = cv2.VideoCapture(0)
 
     while True:
         ret, frame = cap.read()
