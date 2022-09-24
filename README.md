@@ -4,15 +4,15 @@ Python code for eye and gaze tracking
 First of all we import the libraries: Opencv and numpy.
 0 in "cap = cv2.VideoCapture()" is for opening the camera and then we put it in a loop so tha we can loop through the frames of the video and process image by image.
 
-import cv2
-import numpy as np
+    import cv2
+    import numpy as np
 
-cap = cv2.VideoCapture("eye_recording.flv")
+    cap = cv2.VideoCapture("eye_recording.flv")
 
-while True:
-    ret, frame = cap.read()
-    if ret is False:
-        break
+    while True:
+        ret, frame = cap.read()
+        if ret is False:
+            break
         
 then we select an Roi (region of interest).
 In this way we are restricting the detection only to the pupil, iris and sclera and cutting out all the unnecessary things like eyelashes and the area surrounding the eye.        
