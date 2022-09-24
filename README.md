@@ -17,10 +17,10 @@ First of all we import the libraries: Opencv and numpy.
 then we select an Roi (region of interest).
 In this way we are restricting the detection only to the pupil, iris and sclera and cutting out all the unnecessary things like eyelashes and the area surrounding the eye.        
 
-  roi = frame[269: 795, 537: 1416]
-  rows, cols, _ = roi.shape
-  gray_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
-  gray_roi = cv2.GaussianBlur(gray_roi, (7, 7), 0)
+    roi = frame[269: 795, 537: 1416]
+    rows, cols, _ = roi.shape
+    gray_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    gray_roi = cv2.GaussianBlur(gray_roi, (7, 7), 0)
 
 
 Our focus is on the pupil. By converting the image into grayscale format we will see that the pupil is always darker then the rest of the eye. No matter where the eye is looking at and no matter what color is the sclera of the person.
