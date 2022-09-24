@@ -1,7 +1,7 @@
 # Eye-and-gaze-tracking-with-image-processing
 Python code for eye and gaze tracking
 
-We import the libraries Opencv and numpy.
+First of all we import the libraries: Opencv and numpy.
 0 in "cap = cv2.VideoCapture()" is for opening the camera and then we put it in a loop so tha we can loop through the frames of the video and process image by image.
 
   import cv2
