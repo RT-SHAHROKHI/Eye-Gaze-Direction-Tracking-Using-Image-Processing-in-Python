@@ -30,7 +30,7 @@ To do so, first conversion to grayscale and then we find the threshold to extrac
 
     _, threshold = cv2.threshold(gray_roi, 3, 255, cv2.THRESH_BINARY_INV)
     
-From the threshold we find the contours. And we simply remove all the noise selecting the element with the biggest area (which is supposed to be the pupil) and skip al the rest.
+From the threshold we find the contours. And we simply remove all the noise selecting the element with the biggest area (which is supposed to be the pupil) and skip all the rest.
     
      contours, hierachy = cv2.findContours(threshold, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     contours = sorted(contours, key=lambda x: cv2.contourArea(x), reverse=True)
