@@ -14,7 +14,7 @@ First of all we import the libraries: Opencv and numpy.
         if ret is False:
             break
         
-then we select an Roi (region of interest).
+then we select a Roi (region of interest).
 In this way we are restricting the detection only to the pupil, iris and sclera and cutting out all the unnecessary things like eyelashes and the area surrounding the eye.        
 
     roi = frame[269: 795, 537: 1416]
