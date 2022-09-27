@@ -59,7 +59,7 @@ while True:
     rows, cols, _      = frame.shape
     roi                = convert_to_gray(frame) # for using thersholding and detect pupil which is pure black 
     roi                = blur(roi) # to reduce noise
-    _, threshold       = threshold_inv(roi) # with using threshold(BINARY_INV) ; pupil which is pure black turns into white but almost evrything else is going to be black 
+    _, threshold       = threshold_inv(roi) # with using threshold(BINARY_INV) ; pupil which is always darker then the rest of the eye turns into white but almost evrything else (evrything brighter than pupil) is going to be black 
     contours, hierachy = find_boundaries(threshold) 
     contours           = Choose_pupil_boundaries(contours)
     
