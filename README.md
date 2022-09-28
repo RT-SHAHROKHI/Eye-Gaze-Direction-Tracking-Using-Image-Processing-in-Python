@@ -1,7 +1,7 @@
 Python code for eye and gaze tracking
 
 How to use : 
-make sure that your eye is visible on the screen when you run the code to see proper output.
+Make sure that your eye is visible on the screen when you run the code to see proper output.
 
 Download exe file of the code :
 https://drive.google.com/file/d/1_5ZI3jwP6APg4gOV-ZVxZZtV9pRhkE5a/view?usp=sharing
