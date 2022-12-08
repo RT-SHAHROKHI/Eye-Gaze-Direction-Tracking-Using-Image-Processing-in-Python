@@ -1,4 +1,4 @@
-Python code for eye and gaze tracking
+University final project: Python code for eye and gaze tracking
 
 How to use : 
 Make sure that your eye is visible on the screen when you run the code to see proper output.
