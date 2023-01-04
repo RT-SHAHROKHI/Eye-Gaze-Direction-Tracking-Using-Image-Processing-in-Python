@@ -1,7 +1,7 @@
-University final project: Python code for eye and gaze tracking
+Bachelor's final project: Eye Gaze Direction Tracking Using Image Processing in Python
 
 How to use : 
-Make sure that your eye is visible on the screen when you run the code to see proper output.
+Run the code and make sure that your eye is visible on the screen when you run the code to see proper output.
 
 Download exe file of the code :
 https://drive.google.com/file/d/1_5ZI3jwP6APg4gOV-ZVxZZtV9pRhkE5a/view?usp=sharing
