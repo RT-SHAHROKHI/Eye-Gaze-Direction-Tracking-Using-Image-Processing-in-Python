@@ -47,7 +47,10 @@ size_of_the_rectangle = 2
 
 # main : 
 
-cap = cv2.VideoCapture(0) #to open the camera
+webcam_URL = "https://192.168.1.100:8080/video"
+
+# cap = cv2.VideoCapture(0) #Open system camera
+cap = cv.2VideoCapture(webcam_URL) #Open IP camera as webcam
 
 while True:
 
